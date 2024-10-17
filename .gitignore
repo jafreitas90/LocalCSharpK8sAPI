@@ -33,5 +33,10 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 
-# Visual Studio 2015
+# Visual Studio 
+# Ignore Visual Studio folder
 **/.vs/
+
+# Ignore bin and obj folders
+**/bin/
+**/obj/
