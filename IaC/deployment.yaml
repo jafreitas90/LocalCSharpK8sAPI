@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8stimeservice-deployment
+  labels:
+    app: k8stimeservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: k8stimeservice
+  template:
+    metadata:
+      labels:
+        app: k8stimeservice
+    spec:
+      containers:
+        - name: k8stimeservice-container
+          image: k8stimeservice:v1 # Use the locally built image
+          ports:
+            - containerPort: 80

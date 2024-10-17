@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bV/ldFBx9BW+PL1wTXLBDPbHY1TEGDlXgmct2QBKF7w=",
+  "Source": "K8sTimeService",
+  "BasePath": "_content/K8sTimeService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
