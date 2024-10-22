@@ -28,4 +28,6 @@ LocalCSharpK8sAPI/                    # Root directory of the project
 
 ```
 
-More details <a href="https://readme.com/" target="_blank">here</a>
+More details <a href="https://jafreitas90.medium.com/deploying-a-local-c-api-to-kubernetes-with-minikube-and-docker-d308f635b3bf" target="_blank">here</a>
+
+
